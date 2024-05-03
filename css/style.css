@@ -15,6 +15,15 @@ input {
 }
 
 
+/*** COLORS TO BE USED ***/
+
+:root {
+    --whiteColor: #fff;
+    --blackColor: #000;
+    --blueColor: ;
+}
+
+
 /*** BODY ***/
 
 body {
