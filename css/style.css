@@ -33,6 +33,27 @@ input {
 }
 
 
+/*** BIG TITLES ***/
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--blueColor);
+    font-family: "Lora", serif;
+}
+
+h4 {
+    width: 130px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-bottom: 8px solid var(--blueColor);
+}
+
+
 /*** BODY ***/
 
 body {
@@ -136,23 +157,11 @@ header .header-content a i {
 }
 
 .about-us h3 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-style: italic;
     text-align: center;
-    color: var(--blueColor);
-    font-family: "Lora", serif;
 }
 
 .about-us h4 {
-    width: 130px;
     margin: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    border-bottom: 8px solid var(--blueColor);
 }
 
 .about-us i {
@@ -236,4 +245,63 @@ span {
     color: var(--blueColor);
     font-weight: 700;
     font-family: "Lora", serif;
+}
+
+
+/*** NOS PRODUITS ***/
+
+.products {
+    margin-top: 70px;
+}
+
+.products .products-items {
+    display: grid;
+    gap: 20px;
+    -webkit-column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.products .our-prod {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--grayColor);
+}
+
+.products .our-prod div {
+    margin-top: 10px;
+    padding: 20px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--grayColor);
+}
+
+.products .our-prod p,
+span {
+    font-size: 1rem;
+}
+
+.products .our-prod img {
+    width: 100%;
+    padding: 20px 20px;
+    transition: transform 0.3s ease;
+}
+
+.products .our-prod img:hover {
+    transform: scale(1.1);
+}
+
+.products .see-more {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    margin: auto;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: var(--whiteColor);
+    font-family: "Lora", serif;
+    background-color: var(--blueColor);
 }
