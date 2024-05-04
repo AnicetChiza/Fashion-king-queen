@@ -171,6 +171,37 @@ header .header-content a i {
 }
 
 
+/*** OBJECTIF ***/
+
+.goal {
+    margin-top: 70px;
+    background-color: var(--grayColor);
+}
+
+.goal h3 {
+    font-size: 2rem;
+    font-style: italic;
+    color: var(--blueColor);
+    font-family: "Lora", serif;
+}
+
+.goal h4 {
+    width: 5.5rem;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    border: 3px solid var(--blueColor);
+}
+
+.goal-items {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-family: 'Lora', serif;
+}
+
+
 /*** WRAPPER ***/
 
 .wrapper {
