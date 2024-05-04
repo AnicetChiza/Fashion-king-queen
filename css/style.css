@@ -151,3 +151,12 @@ header .header-content a i {
     margin-bottom: 20px;
     border-bottom: 8px solid var(--blueColor);
 }
+
+.about-us p {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-family: "Lora", serif;
+}
