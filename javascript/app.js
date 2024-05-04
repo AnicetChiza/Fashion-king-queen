@@ -21,15 +21,12 @@ let currentIndex = 0;
 
 function changeBg() {
     const images = [
-        'url("../images/home-page/img4.jpg")',
         'url("../images/home-page/img1.jpg")',
         'url("../images/home-page/img2.JPG")',
         'url("../images/home-page/img3.JPG")',
+        'url("../images/home-page/img4.jpg")',
         'url("../images/home-page/img5.JPG")',
-        'url("../images/home-page/img6.jpeg")',
-        'url("../images/home-page/img7.jpeg")',
-        'url("../images/home-page/img8.jpeg")',
-        'url("../images/home-page/img9.jpeg")',
+        'url("../images/home-page/img6.JPG")',
         'url("../images/home-page/img10.JPG")',
     ];
 
