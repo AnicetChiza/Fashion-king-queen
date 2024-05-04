@@ -252,6 +252,16 @@ span {
 
 .products {
     margin-top: 70px;
+    background-color: var(--grayColor);
+}
+
+.products h3 {
+    text-align: end;
+}
+
+.products .prod-title {
+    display: flex;
+    justify-content: space-between;
 }
 
 .products .products-items {
@@ -273,7 +283,7 @@ span {
     padding: 20px 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: var(--grayColor);
+    background-color: var(--whiteColor);
 }
 
 .products .our-prod p,
