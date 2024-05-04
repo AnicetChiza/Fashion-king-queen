@@ -37,7 +37,6 @@ input {
 
 body {
     font-size: 1rem;
-    /*font-family: "Lora", serif;*/
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -132,6 +131,10 @@ header .header-content a i {
 
 /*** ABOUT US ***/
 
+.about-us {
+    margin-top: 70px;
+}
+
 .about-us h3 {
     font-size: 2rem;
     font-weight: 700;
@@ -164,5 +167,42 @@ header .header-content a i {
     font-weight: 500;
     font-style: italic;
     font-size: 1.2rem;
+    font-family: "Lora", serif;
+}
+
+
+/*** WRAPPER ***/
+
+.wrapper {
+    margin-top: 70px;
+}
+
+.wrapper-container {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    justify-content: space-between;
+}
+
+.wrapper-container .counter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.wrapper-container .counter i {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: var(--blueColor);
+}
+
+.wrapper-container .counter p,
+span {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--blueColor);
+    font-weight: 700;
     font-family: "Lora", serif;
 }
