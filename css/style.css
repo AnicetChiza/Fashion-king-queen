@@ -187,21 +187,6 @@ header .header-content a i {
     background-color: var(--grayColor);
 }
 
-.goal h3 {
-    font-size: 2rem;
-    font-style: italic;
-    color: var(--blueColor);
-    font-family: "Lora", serif;
-}
-
-.goal h4 {
-    width: 5.5rem;
-    border-radius: 10px;
-    margin-top: 5px;
-    margin-bottom: 2px;
-    border: 3px solid var(--blueColor);
-}
-
 .goal-items {
     display: flex;
     align-items: center;
@@ -283,7 +268,6 @@ span {
     padding: 20px 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: var(--whiteColor);
 }
 
 .products .our-prod p,
