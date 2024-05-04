@@ -72,6 +72,7 @@ header .header-content a i {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: background-image 0.5s ease;
     /*background-image: url('../images/home-page/img1.jpg');
     animation-name: animate;
     animation-delay: 10s;
