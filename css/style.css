@@ -152,8 +152,14 @@ header .header-content a i {
     border-bottom: 8px solid var(--blueColor);
 }
 
+.about-us i {
+    font-size: 2.5rem;
+    font-style: italic;
+    color: var(--grayColor);
+}
+
 .about-us p {
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
     font-weight: 500;
     font-style: italic;
